@@ -27,5 +27,5 @@ affiliation: Department of Population Health
 #degrees: 'B.S. Mathematics, Case Western Reserve University'
 
 format:
-  monashthesis-html: default
+  #monashthesis-html: default
   monashthesis-pdf: default

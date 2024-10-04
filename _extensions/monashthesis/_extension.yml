@@ -21,10 +21,10 @@ contributes:
       papersize: a4
       fontsize: 11pt
       geometry:
-      - top=2.5cm
-      - bottom=2.5cm
-      - left=2.5cm
-      - right=2.5cm
+      - top=1in
+      - bottom=1in
+      - left=1in
+      - right=1in
       block-headings: false
       colorlinks: true
       linestretch: 2
@@ -35,17 +35,17 @@ contributes:
       header-includes:
         - \usepackage{setspace}
         - \doublespacing
-    html:
-      theme:
-        - cosmo
-        - thesis.scss
-      fontsize: 16px
-      mainfont: "Merriweather, serif"
-      code-link: true
-      toc-title: "<b>Sections</b>"
-      html-math-method: katex
-      published-title: "Last updated"
-      format-resources:
-        - fonts.html
-      include-in-header:
-        file: fonts.html
+    #html:
+    #  theme:
+    #    - cosmo
+    #    - thesis.scss
+    #  fontsize: 16px
+    #  mainfont: "Merriweather, serif"
+    #  code-link: true
+    #  toc-title: "<b>Sections</b>"
+    #  html-math-method: katex
+    #  published-title: "Last updated"
+    #  format-resources:
+    #    - fonts.html
+    #  include-in-header:
+    #    file: fonts.html

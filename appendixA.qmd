@@ -6,11 +6,15 @@ execute:
   message: false  # Suppresses messages
   fig-cap: false 
   fig-nofloat: true 
+output:
+  pdf_document:
+    keep_tex: true 
 ---
 
 ## Table 1: Mean (SD) Characteristics of US Counties by Urbanicity Category
 
 ::: {#tbl-aim1_table1}
+\begin{adjustbox}{max width=\textwidth}
 | Characteristic                        | Large Central Metro | Large Fringe Metro | Medium Metro | Small Metro | Micropolitan | Noncore     | Overall     |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 | **n**                                 | 68                  | 368                | 372          | 357         | 641          | 1335        | 3141        |
@@ -20,6 +24,7 @@ execute:
 | **Black (%)**                         | 21 (14)             | 11 (14)            | 11 (14)      | 9 (12)      | 8 (14)       | 8 (15)      | 9 (14)      |
 | **Hispanic (%)**                      | 20 (15)             | 10 (10)            | 11 (15)      | 9 (12)      | 11 (16)      | 9 (14)      | 10 (14)     |
 | **Poor mental health days per month** | 4.35 (0.49)         | 4.43 (0.57)        | 4.68 (0.54)  | 4.66 (0.65) | 4.74 (0.64)  | 4.72 (0.73) | 4.67 (0.67) |
+\end{adjustbox}
 :::
 
 ------------------------------------------------------------------------

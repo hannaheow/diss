@@ -13,7 +13,7 @@ editor: visual
 
 ::: {#tbl-aim1_table1}
 | Characteristic                        | Large Central Metro | Large Fringe Metro | Medium Metro | Small Metro | Micropolitan | Noncore     | Overall     |
-|---------|---------|---------|---------|---------|---------|---------|---------|
+|---------------------------------------|---------------------|--------------------|--------------|-------------|--------------|-------------|-------------|
 | **n**                                 | 68                  | 368                | 372          | 357         | 641          | 1335        | 3141        |
 | **Some college (%)**                  | 70 (8)              | 64 (11)            | 61 (11)      | 61 (11)     | 57 (11)      | 55 (12)     | 58 (12)     |
 | **Median household income (\$K)**     | 70.7 (18.8)         | 74.6 (19.0)        | 59.6 (12.0)  | 56.6 (10.1) | 53.1 (11.1)  | 49.7 (9.8)  | 55.7 (14.5) |
@@ -25,14 +25,10 @@ editor: visual
 
 ------------------------------------------------------------------------
 
-
-
 ## Figure 1: Average number of poor mental health days reported in past month per county by urbanicity category {#fig-aim1_fig1}
+
 ```{r}
 #| label: fig-aim1_fig1
 #| fig-cap: "Violin plot of the average number of poor mental health days by urbanicity category" 
 knitr::include_graphics("aim1_files/aim1_fig1.jpg")
 ```
-
-
-
