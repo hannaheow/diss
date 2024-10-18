@@ -16,7 +16,7 @@ contributes:
           warning: false
           message: false
     pdf:
-      documentclass: report
+      #documentclass: report
       pdf-engine: pdflatex
       papersize: a4
       fontsize: 11pt
